@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+
+
+
+
+
+
+<script>
+
+
+
+
+var usdToSum = 11435.00;
+var euroToSum = 12278.56;
+
+
+var flightTicket = 500 ; 
+var hotelPayment = 250; 
+var  sightseeingExpenses = 400;
+
+
+var destination = prompt("Alisher qayerga bormoqshisan")
+var alisherMoney = prompt("Alisher summangni kirit senda qancha bor");
+
+var flightTicketInSom = flightTicket * usdToSum;
+var hotelPaymentInSom = hotelPayment * usdToSum;
+var sightseeingExpensesInSom = sightseeingExpenses * euroToSum;
+
+
+var totalExpens = flightTicket + hotelPayment + sightseeingExpenses;
+
+if(alisherMoney >= totalExpens){
+    document.write("<h1 style=color:red;>Alisher sening xarajating yetadi senga oq yo'l</h1>")
+}
+    else {
+    document.write("<h1 style='color:red;'>Alisher xarajating yetmaydi damingni ol</h1>")
+}
+
+</script >
+
+</body>
+</html>
